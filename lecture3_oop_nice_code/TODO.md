@@ -2,7 +2,8 @@
 
 Интерфейс UserStorage предоставляет апи для хранения и поиска пользователей.
 
-1. Реализуйте класс User (getters & toString()), который содержит информацию о пользователе.
+1. Реализуйте класс User (конструктор, getters, setters & toString(), equals + hashcode (не сгенерить в Идее, а написать свою реализацию)), 
+который содержит информацию о пользователе.
 
 ```java
 ctor(String login, String firstName, String lastName, Gender gender, LocalDate birthDate);
